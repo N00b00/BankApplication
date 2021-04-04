@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ScreenShot]">
+  <listeners>
+    <listener class-name="com.ba.utilities.Listeners"/>
+  </listeners>
+  <test name="BankApplication(failed)">
+    <classes>
+      <class name="com.ba.testcase.TestCase001">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- com.ba.testcase.TestCase001 -->
+    </classes>
+  </test> <!-- BankApplication(failed) -->
+</suite> <!-- Failed suite [ScreenShot] -->
